@@ -68,7 +68,6 @@ class UserCards extends Component {
                     ☀ Liên Hệ (Zalo): 0932 976 462
                     <br/>
                     <br/>
-                    <br/>
                   </p>
                 </div>
               </div>
