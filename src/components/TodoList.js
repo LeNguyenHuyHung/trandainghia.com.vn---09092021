@@ -18,7 +18,7 @@ const TodoList = () => {
     }, [])
 
     const [isTrain,setIsTrain] = useState(false);
-    const [isTest,setIsTest] = useState(false);
+    const [isTest,setIsTest] = useState(true);
 
     const handleSubmitTraining= async (e)=>{
         setIsTrain(false);
@@ -40,10 +40,10 @@ const TodoList = () => {
                 <Button component={Link} style={{"background-color" :"green"}} to='tutorials' variant="contained" color="primary">Xem Danh Sách Gia Sư</Button>
             </div>
 
-            <div className = "task-container"  >
+            {/* <div className = "task-container"  >
             <Button onClick={handleSubmitTraining} className="button-wrapper" style={{"background-color" :"orange"}} component={Link} variant="contained" color="primary">Luyện Tập Theo Chủ Đề</Button>
             <Button onClick={handleSubmitTest} className="button-wrapper" style={{"background-color" :"#8CC152"}} component={Link} variant="contained" color="primary">Làm Đề Thi</Button>
-            </div>
+            </div> */}
 
             <div hidden={isTrain}>
                 <h2 className="" style={{color: "orange",paddingLeft:'6%',paddingTop:'60px',paddingBottom:'40px'}} >Luyện tập. </h2>
