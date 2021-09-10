@@ -17,6 +17,56 @@ import riddle1 from './images/riddle1.png';
 const Concepts = () => {
   return (
     <CardColumns  style={{paddingLeft:'6%',paddingRight:'6%'}}>
+
+<div onClick={event =>  window.location.href='/speed'}>
+      <Card >
+        <Card.Img variant="top" src={speed} />
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title>SPEED </Card.Title>
+          <Card.Title>(BÀI TOÁN VẬN TỐC) </Card.Title>
+          {/* <Card.Text>
+          When students are required to draw a diagram of a large area the diagram will often need to be scaled down. Drawing a picture can help students simplify a problem.
+          </Card.Text> */}
+        </Card.Body>
+        <Card.Footer>
+        <small className="text-muted">Last updated 2021</small>
+        </Card.Footer>
+      </Card>
+      </div>      
+      
+      <div onClick={event =>  window.location.href='/model'}>
+      <Card >
+        <Card.Img variant="top" src={model} />
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title>MAKE MODEL </Card.Title>
+          <Card.Title>(PHƯƠNG PHÁP VẼ MODEL) </Card.Title>
+          {/* <Card.Text>
+          The examples on algebra word problems – money will help us to learn how to write and solve equations involving money, explanation how to solve the algebra word money.
+          </Card.Text> */}
+        </Card.Body>
+        <Card.Footer>
+        <small className="text-muted">Last updated 2021</small>
+        </Card.Footer>
+      </Card>
+      </div>      
+
+      <div onClick={event =>  window.location.href='/riddle-1'}>
+      <Card >
+        <Card.Img variant="top" src={riddle1} />
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title>RIDDLES PART 1</Card.Title>
+          <Card.Title>(TỔNG HỢP CÂU HỎI PHẦN 1) </Card.Title>
+          {/* <Card.Text>
+This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
+          </Card.Text> */}
+        </Card.Body>
+        <Card.Footer>
+        <small className="text-muted">Last updated 2021</small>
+        </Card.Footer>
+      </Card>
+      </div>
+
+
       <div onClick={event =>  window.location.href='/age'}>
       <Card >
         <Card.Img variant="top" src={age} />
@@ -110,53 +160,6 @@ This strategy is most often used with problems where it is necessary to work out
       </Card>
       </div>
 
-      <div onClick={event =>  window.location.href='/speed'}>
-      <Card >
-        <Card.Img variant="top" src={speed} />
-        <Card.Body style={{textAlign:'center'}}>
-          <Card.Title>SPEED </Card.Title>
-          <Card.Title>(BÀI TOÁN VẬN TỐC) </Card.Title>
-          {/* <Card.Text>
-          When students are required to draw a diagram of a large area the diagram will often need to be scaled down. Drawing a picture can help students simplify a problem.
-          </Card.Text> */}
-        </Card.Body>
-        <Card.Footer>
-        <small className="text-muted">Last updated 2021</small>
-        </Card.Footer>
-      </Card>
-      </div>      
-      
-      <div onClick={event =>  window.location.href='/model'}>
-      <Card >
-        <Card.Img variant="top" src={model} />
-        <Card.Body style={{textAlign:'center'}}>
-          <Card.Title>MAKE MODEL </Card.Title>
-          <Card.Title>(PHƯƠNG PHÁP VẼ MODEL) </Card.Title>
-          {/* <Card.Text>
-          The examples on algebra word problems – money will help us to learn how to write and solve equations involving money, explanation how to solve the algebra word money.
-          </Card.Text> */}
-        </Card.Body>
-        <Card.Footer>
-        <small className="text-muted">Last updated 2021</small>
-        </Card.Footer>
-      </Card>
-      </div>      
-
-      <div onClick={event =>  window.location.href='/riddle-1'}>
-      <Card >
-        <Card.Img variant="top" src={riddle1} />
-        <Card.Body style={{textAlign:'center'}}>
-          <Card.Title>RIDDLES PART 1</Card.Title>
-          <Card.Title>(TỔNG HỢP CÂU HỎI PHẦN 1) </Card.Title>
-          {/* <Card.Text>
-This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
-          </Card.Text> */}
-        </Card.Body>
-        <Card.Footer>
-        <small className="text-muted">Last updated 2021</small>
-        </Card.Footer>
-      </Card>
-      </div>
 
     </CardColumns>
     
