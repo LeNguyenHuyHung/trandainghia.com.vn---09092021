@@ -12,6 +12,9 @@ import concrete from './images/concrete Materials.png';
 import speed from './images/speed.png';
 import model from './images/model.png';
 import riddle1 from './images/riddle1.png';
+import riddle2 from './images/riddle2.png';
+import riddle3 from './images/riddle3.png';
+import assuming from './images/assuming.png';
 
 
 const Concepts = () => {
@@ -49,23 +52,6 @@ const Concepts = () => {
         </Card.Footer>
       </Card>
       </div>      
-
-      <div onClick={event =>  window.location.href='/riddle-1'}>
-      <Card >
-        <Card.Img variant="top" src={riddle1} />
-        <Card.Body style={{textAlign:'center'}}>
-          <Card.Title>RIDDLES PART 1</Card.Title>
-          <Card.Title>(TỔNG HỢP CÂU HỎI PHẦN 1) </Card.Title>
-          {/* <Card.Text>
-This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
-          </Card.Text> */}
-        </Card.Body>
-        <Card.Footer>
-        <small className="text-muted">Last updated 2021</small>
-        </Card.Footer>
-      </Card>
-      </div>
-
 
       <div onClick={event =>  window.location.href='/age'}>
       <Card >
@@ -150,6 +136,70 @@ This strategy is most often used with problems where it is necessary to work out
         <Card.Body style={{textAlign:'center'}}>
           <Card.Title>CONCRETE MATERIALS </Card.Title>
           <Card.Title>(PHƯƠNG PHÁP LIÊN KẾT) </Card.Title>
+          {/* <Card.Text>
+This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
+          </Card.Text> */}
+        </Card.Body>
+        <Card.Footer>
+        <small className="text-muted">Last updated 2021</small>
+        </Card.Footer>
+      </Card>
+      </div>
+
+      <div onClick={event =>  window.location.href='/assuming'}>
+      <Card >
+        <Card.Img variant="top" src={assuming} />
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title>ASSUMING </Card.Title>
+          <Card.Title>(PHƯƠNG PHÁP GIẢ SỬ) </Card.Title>
+          {/* <Card.Text>
+This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
+          </Card.Text> */}
+        </Card.Body>
+        <Card.Footer>
+        <small className="text-muted">Last updated 2021</small>
+        </Card.Footer>
+      </Card>
+      </div>
+
+      <div onClick={event =>  window.location.href='/riddle-1'}>
+      <Card >
+        <Card.Img variant="top" src={riddle1} />
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title>RIDDLES PART 1</Card.Title>
+          <Card.Title>(TỔNG HỢP CÂU HỎI PHẦN 1) </Card.Title>
+          {/* <Card.Text>
+This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
+          </Card.Text> */}
+        </Card.Body>
+        <Card.Footer>
+        <small className="text-muted">Last updated 2021</small>
+        </Card.Footer>
+      </Card>
+      </div>
+
+      <div onClick={event =>  window.location.href='/concrete'}>
+      <Card >
+        <Card.Img variant="top" src={riddle2} />
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title>RIDDLES PART 2 </Card.Title>
+          <Card.Title>(TỔNG HỢP CÂU HỎI PHẦN 2) </Card.Title>
+          {/* <Card.Text>
+This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
+          </Card.Text> */}
+        </Card.Body>
+        <Card.Footer>
+        <small className="text-muted">Last updated 2021</small>
+        </Card.Footer>
+      </Card>
+      </div>
+
+      <div onClick={event =>  window.location.href='/concrete'}>
+      <Card >
+        <Card.Img variant="top" src={riddle3} />
+        <Card.Body style={{textAlign:'center'}}>
+          <Card.Title>RIDDLES PART 3 </Card.Title>
+          <Card.Title>(TỔNG HỢP CÂU HỎI PHẦN 3)</Card.Title>
           {/* <Card.Text>
 This strategy is most often used with problems where it is necessary to work out all possible combinations of the different factors in the problem.
           </Card.Text> */}
