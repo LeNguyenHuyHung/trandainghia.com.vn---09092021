@@ -18,6 +18,7 @@ import Speed from './components/training/speed/speed';
 import Riddle1 from './components/training/riddle-1/riddle-1';
 import CreateModel from './components/training/createModel/model';
 import Assuming from './components/training/assuming/asuming';
+import Riddle2 from './components/training/riddle-2/riddle-2';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <Route exact path="/riddle-1" component={Riddle1}></Route>
       <Route exact path="/model" component={CreateModel}></Route>
       <Route exact path="/assuming" component={Assuming}></Route>
+      <Route exact path="/riddle-2" component={Riddle2}></Route>
       <Route path="/" component={TodoList}></Route>
     </Switch>
     </BrowserRouter>
