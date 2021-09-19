@@ -25,7 +25,7 @@ const Riddle2 =({history})=>{
             <Button  to='age' className="button-header-wrapper" style={{"background-color" :"orange"}} component={Link} variant="contained" color="primary">CHỦ ĐỀ TIẾP THEO</Button>
             </div>
             <div className = "header text-center">
-                <h1>ASSUMING</h1>
+                <h1>MATHEMATIC RIDDLES (PART 2)</h1>
             </div>
             <Quiz_1/>
             <Quiz_2/>
