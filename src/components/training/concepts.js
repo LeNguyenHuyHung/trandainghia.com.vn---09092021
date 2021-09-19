@@ -194,7 +194,7 @@ This strategy is most often used with problems where it is necessary to work out
       </Card>
       </div>
 
-      <div onClick={event =>  window.location.href='/concrete'}>
+      <div onClick={event =>  window.location.href='/riddle-3'}>
       <Card >
         <Card.Img variant="top" src={riddle3} />
         <Card.Body style={{textAlign:'center'}}>
