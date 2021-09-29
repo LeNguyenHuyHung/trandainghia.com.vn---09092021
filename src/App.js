@@ -39,7 +39,7 @@ function App() {
       <Route exact path="/speed" component={Speed}></Route>
       <Route exact path="/riddle-1" component={Riddle1}></Route>
       <Route exact path="/model" component={CreateModel}></Route>
-      <Route exact path="/assuming-error" component={Assuming}></Route>
+      <Route exact path="/assuming" component={Assuming}></Route>
       <Route exact path="/riddle-2" component={Riddle2}></Route>
       <Route exact path="/riddle-3" component={Riddle3}></Route>
       <Route path="/" component={TodoList}></Route>
