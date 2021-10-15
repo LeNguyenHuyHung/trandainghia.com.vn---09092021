@@ -37,7 +37,7 @@ const TodoList = () => {
             <div className = "header text-center">
                 <h1>NEVER STOP LEARNING</h1>
                 {/* <button className = "btn btn-success mt-2" onClick = {() => setModal(true)} >Xem Danh Sách Gia Sư</button> */}
-                <Button component={Link} style={{"background-color" :"green"}} to='tutorials' variant="contained" color="primary">Xem Danh Sách Gia Sư</Button>
+                {/* <Button component={Link} style={{"background-color" :"green"}} to='tutorials' variant="contained" color="primary">Xem Danh Sách Gia Sư</Button> */}
             </div>
 
             {/* <div className = "task-container"  >
