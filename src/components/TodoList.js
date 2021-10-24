@@ -63,6 +63,7 @@ const TodoList = () => {
                 {/* <Card toLink="/k2020" title="Các câu khó: 21, 24" colorIndex ={1} testName ="K-2021"/>  */}
                 <Card toLink="/k2020" title="Các câu khó: 15,17, 20, 24 " colorIndex ={1} testName ="K-2020"/> 
                 <Card toLink="/sample-1" title="Các câu khó: 20, 21, 22, 25, 28, 29" colorIndex ={1} testName ="PRACTICES 1"/> 
+                <Card toLink="/sample-2" title="Các câu khó: 7, 15, 20, 22, 23, 25" colorIndex ={1} testName ="PRACTICES 2"/> 
                 {/* <Card toLink="/k2020" title="Các câu khó: 20, 22, 22 " colorIndex ={1} testName ="K-2019"/> 
                 <Card toLink="/k2020" title="Các câu khó: 16, 21, 23 " colorIndex ={1} testName ="K-2018"/> 
                 <Card toLink="/k2020" title="Các câu khó: 22, 23 " colorIndex ={1} testName ="K-2017"/> 

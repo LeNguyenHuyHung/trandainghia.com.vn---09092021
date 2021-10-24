@@ -21,6 +21,7 @@ import Assuming from './components/training/assuming/asuming';
 import Riddle2 from './components/training/riddle-2/riddle-2';
 import Riddle3 from './components/training/riddle-3/riddle-3';
 import Sample1 from './components/kangaroo/sample-1/Sample1';
+import Sample2 from './components/kangaroo/sample-2/Sample2';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <Route exact path="/riddle-2" component={Riddle2}></Route>
       <Route exact path="/riddle-3" component={Riddle3}></Route>
       <Route exact path="/sample-1" component={Sample1}></Route>
+      <Route exact path="/sample-2" component={Sample2}></Route>
       <Route path="/" component={TodoList}></Route>
     </Switch>
     </BrowserRouter>
